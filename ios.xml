@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1" parallel="tests"
+  thread-count="3" configfailurepolicy="continue">
+  <parameter name="site" value="dev"/>
+  <!--  <test name="iPhone 11 Pro Max" annotations="JDK" preserve-order="true">-->
+  <!--  <parameter name="app" value="app-staging.app"/>-->
+  <!--  <parameter name="version" value="13.3"/>-->
+  <!--  <parameter name="deviceName" value="iPhone 11 Pro Max"/>-->
+  <!--  <parameter name="port" value="4723"/>-->
+  <!--  <parameter name="wdaLocalPort" value="8101"/>-->
+  <!--  <parameter name="udid" value="Simulator"/>-->
+  <test name="iPhone Xs Max" annotations="JDK" preserve-order="true">
+    <parameter name="app" value="app-staging.app"/>
+    <parameter name="version" value="12.4"/>
+    <parameter name="deviceName" value="iPhone Xs Max"/>
+    <parameter name="port" value="4723"/>
+    <parameter name="wdaLocalPort" value="8101"/>
+    <parameter name="udid" value="Simulator"/>
+    <!---->
+    <classes>
+      <class name="cucumber.runner.ios.iphone11promax.LoginTest"/>
+<!--      <class name="cucumber.runner.ios.iphone11promax.MyAccountTest"/>-->
+<!--      <class name="cucumber.runner.ios.iphone11promax.LocationsTest"/>-->
+<!--      <class name="cucumber.runner.ios.iphone11promax.DevicesTest"/>-->
+    </classes>
+  </test>
+</suite>

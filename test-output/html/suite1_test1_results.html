@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - develope</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>develope</h1>
+<p>
+  Test duration: 94.868s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testng.tests.SmokeTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  test_signin_google
+      </td>
+  <td class="duration">
+    82.949s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Starting action: selenium.pageobject.LoginPage.openPage("https://telesense.app/")<p>
+                                Starting action: selenium.core.BasePage.getDriver()<p>
+                                Action Done! (0.001 sec).<p>
+                                Action Done! (45.004 sec).<p>
+                                Starting action: selenium.pageobject.LoginPage.clickOnSignInGoogle()<p>
+                                Action Done! (0.24 sec).<p>
+                                Starting action: selenium.core.BasePage.waitUntilNewWindows()<p>
+                                Action Done! (0.529 sec).<p>
+                                Starting action: selenium.core.BasePage.switchToNewWindow()<p>
+                                Action Done! (0.015 sec).<p>
+                                Starting action: selenium.pageobject.LoginPage.enterEmailOnGoogleWindows("telesense.automation01@gmail.com")<p>
+                                Action Done! (4.336 sec).<p>
+                                Starting action: selenium.pageobject.LoginPage.clickOnNextButtonOnGoogleEmail()<p>
+                                Action Done! (0.164 sec).<p>
+                                Starting action: selenium.pageobject.LoginPage.enterPasswordOnGoogleWindows("userPass123@")<p>
+                                Action Done! (1.765 sec).<p>
+                                Starting action: selenium.pageobject.LoginPage.clickOnNextButtonOnGooglePassword()<p>
+                                Action Done! (0.167 sec).<p>
+                                Starting action: selenium.core.BasePage.waitUntilNewWindowIsClosed()<p>
+                                Action failed: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for New windows is closed (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MERAO45', ip: '172.16.1.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\vmodev\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 07abd02d13d993dbb34fc43e41f66d3e. (30.697 sec).<p>
+                                <img src="E:\Working\develope\develope\target\screenshot\Pjl6owfI.png" alt="Screenshot">
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for New windows is closed (tried for 30 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-MERAO45&apos;, ip: &apos;172.16.1.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\vmodev\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60182}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 07abd02d13d993dbb34fc43e41f66d3e</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)<br />
+              selenium.core.BasePage.waitUntilNewWindowIsClosed(BasePage.java:153)<br />
+              testng.smoketest.core.TestSteps.loginGoogle(TestSteps.java:49)<br />
+              testng.tests.SmokeTest.test_signin_google(SmokeTest.java:197)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {"name": "Barn (Commodity)", "value": "barn_commodity"},
+    {"name": "Barn (Open hay)", "value": "barn_open_hay"},
+    {"name": "Barn (Wooden hay)", "value": "barn_wooden_hay"},
+    {"name": "Bunker (Concrete)", "value": "bunker_concrete"},
+    {"name": "Bunker (Earthen)", "value": "bunker_earthen"},
+    {"name": "Bunker (Steel)", "value": "bunker_steel"},
+    {"name": "Circular", "value": "circular"},
+    {"name": "Flat bottom bin", "value": "flat_bottom_bin"},
+    {"name": "Ground pile", "value": "ground_pile"},
+    {"name": "Hopper-bottom bin", "value": "hopper_bottom_bin"},
+    {"name": "Horizontal", "value": "horizontal"},
+    {"name": "Horizontal (Internal walled)", "value": "horizontal_internal_walled"},
+    {"name": "Open bulkhead", "value": "open_bulkhead"},
+    {"name": "Shed (Concrete)", "value": "shed_concrete"},
+    {"name": "Shed (Steel)", "value": "shed_steel"},
+    {"name": "Silo", "value": "silo"},
+    {"name": "Silo (Bag)", "value": "silo_bag"},
+    {"name": "Silo (Concrete)", "value": "silo_concrete"},
+    {"name": "Silo (Steel)", "value": "silo_steel"},
+    {"name": "Barge", "value": "barge"}
+]
