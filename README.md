@@ -1,4 +1,4 @@
-# Amperfii Autotest
+# Autotest
 
 1. Download IntelliJ IDEA: https://www.jetbrains.com/idea/download/#section=windows
 2. Download Java JDK 8 or over
