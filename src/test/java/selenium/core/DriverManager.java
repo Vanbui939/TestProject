@@ -17,7 +17,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import utils.enums.Browser;
-import utils.settings.SeleniumConfig;
 import utils.testhelper.TestParams;
 
 

@@ -21,9 +21,20 @@
       <version>${version.cucumber}</version>
     </dependency>
     <dependency>
+      <groupId>io.appium</groupId>
+      <artifactId>java-client</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-core</artifactId>
       <version>${version.cucumber}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit</artifactId>
+      <version>4.2.6</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -31,9 +42,15 @@
       <version>4.12</version>
     </dependency>
     <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>1.2.5</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-testng</artifactId>
-      <version>${version.cucumber}</version>
+      <version>4.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.testng</groupId>
@@ -114,7 +131,7 @@
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-picocontainer</artifactId>
-      <version>${version.cucumber}</version>
+      <version>4.2.6</version>
     </dependency>
     <dependency>
       <groupId>com.sun.mail</groupId>

@@ -3,7 +3,7 @@ package cucumber.runner.web;
 import cucumber.api.CucumberOptions;
 import cucumber.runner.core.WebRunner;
 @CucumberOptions (
-        features = {"classpath:resources/features/test.feature"},
+        features = {"classpath:resources/features/tutorial.feature"},
         plugin = {"pretty", "html:target/cucumber-reports/web/openPage",
                 "json:target/cucumber-reports/web/openPage/Cucumber.json"},
         tags = {},

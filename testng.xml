@@ -4,9 +4,10 @@
 	<listeners>
 		<listener class-name="cucumber.runner.core.Reporter" />
 	</listeners>
-	<test name="Web test" annotations="JDK" preserve-order="true">
+	<test name="Mobile test" annotations="JDK" preserve-order="true">
 		<classes>
-			<class name="cucumber.runner.web.OpenPageTest"/>
+<!--			<class name="cucumber.runner.web.OpenPageTest"/>-->
+			<class name="cucumber.runner.mobile.MobileRunner"/>
 
 		</classes>
 	</test>

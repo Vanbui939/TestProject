@@ -34,5 +34,10 @@ public class TestConfig {
           .valueOf(Calendar.getInstance(TimeZone.getTimeZone("GMT-7")).getTime().getTime() / 1000);
     }
   }
+  public final static String PLATFORM_NAME = "Android";
+  public final static String DEVICE_UUID = "127.0.0.1:62001";
+  public final static String APPIUM_SERVER_HOST = "127.0.0.1";
+  public final static String APPIUM_SERVER_PORT = "4723";
+
 
 }

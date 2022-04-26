@@ -2,6 +2,8 @@ package selenium.pageobject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import selenium.core.BaseLocator;
 import selenium.core.BasePage;
 
@@ -23,11 +25,11 @@ public class GooglePage extends BasePage {
             return new BaseLocator(By.xpath("(//input[@name=\"btnK\"])[2]"));
         }
     }
-        public void inputKeyWord() throws InterruptedException{
-            page.txtSearch().waitUntilVisible().sendKeys("abc");
+        public void inputKeyWord(String key) throws InterruptedException{
+            page.txtSearch().waitUntilVisible().sendKeys(key);
     }
-    public void enter() throws InterruptedException{
-        page.txtSearch().sendKeys(Keys.ENTER);
+    public void clickSearch() throws InterruptedException{
+        page.btnSearch().sendKeys(Keys.ENTER);
     }
 
         public void verifyDisplayResult() throws InterruptedException {

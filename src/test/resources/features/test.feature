@@ -4,5 +4,8 @@ Feature: Open Google
     When Open Google
     And Input keyword to search
     And Click Search
+    And Press Enter
     Then Show Result
+
+
 
